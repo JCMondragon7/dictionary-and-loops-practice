@@ -56,6 +56,7 @@
         #    - Do NOT add the student
         #    - Display an error message saying the CPS ID is already taken
 
+
 students = [
     {
         "cps_id": "1001",
@@ -66,8 +67,15 @@ students = [
         "primary_email": "jordan.smith@cps.edu",
         "secondary_email": "jsmith@gmail.com"
     },
+    { "cps_id": "1002",
+        "name": "abelo,rodelo",
+        "middle_name": "b",
+        "homeroom": "101",
+        "grade": 11,
+        "primary_email": "rodeloabelo@cps.edu",
+        "secondary_email": "rabelo@gmail.com"},
     {
-        "cps_id": "1002",
+        "cps_id": "1003",
         "name": "Lopez, Maria",
         "middle_name": "E",
         "homeroom": "305",
