@@ -110,7 +110,7 @@ def add_student():
     # Check for duplicate CPS ID
     for student in students:
         if student["cps_id"] == cps_id:
-            print("❌ Error: CPS ID already exists. Student not added.")
+            print("Error: CPS ID already exists. Student not added.")
             return
 
     first_name = input("First Name: ")
@@ -139,7 +139,7 @@ def add_student():
     students.append(new_student)
 
     # Confirmation output
-    print("\n✅ Student successfully added!")
+    print("\nStudent successfully added!")
     print(f"Total students in system: {len(students)}")
     print("New Student Record:")
     print(new_student)
